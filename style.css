@@ -1,0 +1,56 @@
+body {
+    background-image: url("C:/Users/houssam/Desktop/IMAGES/image1.png");
+
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: hsl(0, 0%, 100%);
+
+    text-shadow:
+        0 0 5px #e39608,
+        0 0 10px #e39608,
+        0 0 20px #e39608,
+        0 0 40px #e39608,
+        0 0 80px #e39608;
+}
+
+.info-card {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px); 
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    padding: 20px; 
+    color: white;}
+    
+.card-container {padding: 20px;}
+
+.btn-about {
+    padding: 12px 28px;
+    text-decoration: none;
+    background: rgba(60, 238, 149, 0.1); 
+    color: #03cf2f;
+    border: 1px solid rgba(1, 255, 242, 0.4);
+    border-radius: 50px; 
+    backdrop-filter: blur(10px); 
+    
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all 0.3s ease; 
+}
+
+.btn-about:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3); 
+}
